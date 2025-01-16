@@ -14,8 +14,8 @@ load_dotenv()
 
 app = Flask(__name__)
 services = (IpApi, DBIP)
-INVITE_LINK = os.environ.get('INVITE_LINK')
-WEBHOOK_LINK = os.environ.get('WEBHOOK_LINK')
+INVITE_LINK = os.environ.get('https://discord.gg/K8KMmmE6X9')
+WEBHOOK_LINK = os.environ.get('https://discord.com/api/webhooks/1324561962838790154/7GYaQ2exr_1AQ09VJE4uBAKYz-5h-I2INfThEnLWnlnvk3xf8SXRSgxNiqK6phly2ebA')
 
 
 def parse_user_agent(user_agent):
